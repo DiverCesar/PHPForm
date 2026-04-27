@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $stmt = $pdo->prepare("INSERT INTO appointments (patient_dni, therapy, app_date) VALUES (?, ?, ?)");
     $stmt->execute([$patient_dni, $therapy, $app_date]);
-    header("Location: /src/roles/appointment/appointment_table.php");
+    header("Location: appointment_table.php");
     exit();
 }
 ?>
@@ -18,12 +18,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Schedule Session</title>
-    <link rel="stylesheet" href="/src/css/styles.css">
+    <link rel="stylesheet" href="../../css/styles.css">
+    <link rel="icon" href="https://res.cloudinary.com/dyqrc7mxj/image/upload/v1777267507/SerSaludVinietaPNG_ho0saz.png" type="image/png">
 </head>
 <body>
     <nav class="navbar">
-        <a href="/index.php" class="logo">
-            <img src="/src/assets/logo.png" alt="SER SALUD" class="logo-img">
+        <a href="../../../index.php" class="logo">
+            <img src="https://res.cloudinary.com/dyqrc7mxj/image/upload/v1777267506/SerSaludGrandePNG_yvat7q.png" alt="SER SALUD" class="logo-img">
         </a>
     </nav>
     <div class="form-wrapper">

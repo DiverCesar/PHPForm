@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booking Engine Feature</title>
-    <link rel="stylesheet" href="/sersalud/src/css/styles.css">
+    <link rel="stylesheet" href="../../css/styles.css">
+    <link rel="icon" href="https://res.cloudinary.com/dyqrc7mxj/image/upload/v1777267507/SerSaludVinietaPNG_ho0saz.png" type="image/png">
 </head>
 <body>
     <nav class="navbar">
-        <a href="/sersalud/index.php" class="logo"><img src="/sersalud/src/assets/logo.png" class="logo-img"></a>
+        <a href="../../../index.php" class="logo"><img src="https://res.cloudinary.com/dyqrc7mxj/image/upload/v1777267506/SerSaludGrandePNG_yvat7q.png" class="logo-img"></a>
         <ul class="nav-links">
-            <li><a href="/sersalud/index.php#home">Home</a></li>
-            <li><a href="/sersalud/index.php#features">Features</a></li>
-            <li><a href="/sersalud/index.php#contact">Contact</a></li>
+            <li><a href="../../../index.php#home">Home</a></li>
+            <li><a href="../../../index.php#features">Features</a></li>
+            <li><a href="../../../index.php#contact">Contact</a></li>
         </ul>
     </nav>
 
